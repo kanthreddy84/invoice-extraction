@@ -1,0 +1,26 @@
+id,file,source_type,scanned_or_image_based,difficulty,has_ground_truth,special_case
+invoice_001,data/raw/invoice_001.pdf,digital_pdf,False,easy,True,standard variation
+invoice_002,data/raw/invoice_002.pdf,digital_pdf,False,easy,True,standard variation
+invoice_003,data/raw/invoice_003.pdf,digital_pdf,False,easy,True,standard variation
+invoice_004,data/raw/invoice_004.pdf,digital_pdf,False,medium,True,standard variation
+invoice_005,data/raw/invoice_005.pdf,digital_pdf,False,medium,True,standard variation
+invoice_006,data/raw/invoice_006.pdf,digital_pdf,False,medium,True,multi-page-capable layout
+invoice_007,data/raw/invoice_007.pdf,digital_pdf,False,medium,True,18 line items
+invoice_008,data/raw/invoice_008.pdf,digital_pdf,False,medium,True,missing PO number
+invoice_009,data/raw/invoice_009.pdf,digital_pdf,False,medium,True,no tax
+invoice_010,data/raw/invoice_010.pdf,digital_pdf,False,easy,True,standard variation
+invoice_011,data/raw/invoice_011.pdf,digital_pdf,False,medium,False,EUR currency
+invoice_012,data/raw/invoice_012.pdf,digital_pdf,False,medium,False,INR / 18% tax
+invoice_013,data/raw/invoice_013_scan.pdf,image_based_pdf,True,easy,False,standard variation
+invoice_014,data/raw/invoice_014_scan.pdf,image_based_pdf,True,hard,False,low-resolution scan
+invoice_015,data/raw/invoice_015_scan.pdf,image_based_pdf,True,hard,False,skewed scan
+invoice_016,data/raw/invoice_016_scan.pdf,image_based_pdf,True,hard,False,90-degree rotated scan
+invoice_017,data/raw/invoice_017_scan.pdf,image_based_pdf,True,hard,False,shadowed phone-photo simulation
+invoice_018,data/raw/invoice_018_scan.pdf,image_based_pdf,True,hard,False,noisy/crumpled scan simulation
+invoice_019,data/raw/invoice_019_scan.pdf,image_based_pdf,True,hard,False,faded scan and missing due date
+invoice_020,data/raw/invoice_020.pdf,digital_pdf,False,hard,False,dense invoice
+invoice_021,data/raw/invoice_021.pdf,digital_pdf,False,hard,False,unusual item descriptions
+invoice_022,data/raw/invoice_022.pdf,digital_pdf,False,medium,False,discount arithmetic
+invoice_023,data/raw/invoice_023.pdf,digital_pdf,False,hard,False,duplicate-looking total reference
+invoice_024,data/raw/invoice_024.pdf,digital_pdf,False,hard,False,multiple dates
+invoice_025,data/raw/invoice_025_scan.pdf,image_based_pdf,True,very_hard,False,very noisy skewed scan

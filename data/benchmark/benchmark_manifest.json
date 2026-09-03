@@ -1,0 +1,260 @@
+{
+  "name": "Unstructured Document Extraction - Invoice Starter Dataset",
+  "version": "1.0",
+  "total_documents": 25,
+  "scanned_or_image_based_documents": 8,
+  "scanned_percentage": 32.0,
+  "ground_truth_documents": 10,
+  "documents": [
+    {
+      "id": "invoice_001",
+      "file": "data/raw/invoice_001.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "easy",
+      "has_ground_truth": true,
+      "special_case": "standard variation"
+    },
+    {
+      "id": "invoice_002",
+      "file": "data/raw/invoice_002.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "easy",
+      "has_ground_truth": true,
+      "special_case": "standard variation"
+    },
+    {
+      "id": "invoice_003",
+      "file": "data/raw/invoice_003.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "easy",
+      "has_ground_truth": true,
+      "special_case": "standard variation"
+    },
+    {
+      "id": "invoice_004",
+      "file": "data/raw/invoice_004.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "medium",
+      "has_ground_truth": true,
+      "special_case": "standard variation"
+    },
+    {
+      "id": "invoice_005",
+      "file": "data/raw/invoice_005.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "medium",
+      "has_ground_truth": true,
+      "special_case": "standard variation"
+    },
+    {
+      "id": "invoice_006",
+      "file": "data/raw/invoice_006.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "medium",
+      "has_ground_truth": true,
+      "special_case": "multi-page-capable layout"
+    },
+    {
+      "id": "invoice_007",
+      "file": "data/raw/invoice_007.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "medium",
+      "has_ground_truth": true,
+      "special_case": "18 line items"
+    },
+    {
+      "id": "invoice_008",
+      "file": "data/raw/invoice_008.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "medium",
+      "has_ground_truth": true,
+      "special_case": "missing PO number"
+    },
+    {
+      "id": "invoice_009",
+      "file": "data/raw/invoice_009.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "medium",
+      "has_ground_truth": true,
+      "special_case": "no tax"
+    },
+    {
+      "id": "invoice_010",
+      "file": "data/raw/invoice_010.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "easy",
+      "has_ground_truth": true,
+      "special_case": "standard variation"
+    },
+    {
+      "id": "invoice_011",
+      "file": "data/raw/invoice_011.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "medium",
+      "has_ground_truth": false,
+      "special_case": "EUR currency"
+    },
+    {
+      "id": "invoice_012",
+      "file": "data/raw/invoice_012.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "medium",
+      "has_ground_truth": false,
+      "special_case": "INR / 18% tax"
+    },
+    {
+      "id": "invoice_013",
+      "file": "data/raw/invoice_013_scan.pdf",
+      "document_type": "invoice",
+      "source_type": "image_based_pdf",
+      "scanned_or_image_based": true,
+      "difficulty": "easy",
+      "has_ground_truth": false,
+      "special_case": "standard variation"
+    },
+    {
+      "id": "invoice_014",
+      "file": "data/raw/invoice_014_scan.pdf",
+      "document_type": "invoice",
+      "source_type": "image_based_pdf",
+      "scanned_or_image_based": true,
+      "difficulty": "hard",
+      "has_ground_truth": false,
+      "special_case": "low-resolution scan"
+    },
+    {
+      "id": "invoice_015",
+      "file": "data/raw/invoice_015_scan.pdf",
+      "document_type": "invoice",
+      "source_type": "image_based_pdf",
+      "scanned_or_image_based": true,
+      "difficulty": "hard",
+      "has_ground_truth": false,
+      "special_case": "skewed scan"
+    },
+    {
+      "id": "invoice_016",
+      "file": "data/raw/invoice_016_scan.pdf",
+      "document_type": "invoice",
+      "source_type": "image_based_pdf",
+      "scanned_or_image_based": true,
+      "difficulty": "hard",
+      "has_ground_truth": false,
+      "special_case": "90-degree rotated scan"
+    },
+    {
+      "id": "invoice_017",
+      "file": "data/raw/invoice_017_scan.pdf",
+      "document_type": "invoice",
+      "source_type": "image_based_pdf",
+      "scanned_or_image_based": true,
+      "difficulty": "hard",
+      "has_ground_truth": false,
+      "special_case": "shadowed phone-photo simulation"
+    },
+    {
+      "id": "invoice_018",
+      "file": "data/raw/invoice_018_scan.pdf",
+      "document_type": "invoice",
+      "source_type": "image_based_pdf",
+      "scanned_or_image_based": true,
+      "difficulty": "hard",
+      "has_ground_truth": false,
+      "special_case": "noisy/crumpled scan simulation"
+    },
+    {
+      "id": "invoice_019",
+      "file": "data/raw/invoice_019_scan.pdf",
+      "document_type": "invoice",
+      "source_type": "image_based_pdf",
+      "scanned_or_image_based": true,
+      "difficulty": "hard",
+      "has_ground_truth": false,
+      "special_case": "faded scan and missing due date"
+    },
+    {
+      "id": "invoice_020",
+      "file": "data/raw/invoice_020.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "hard",
+      "has_ground_truth": false,
+      "special_case": "dense invoice"
+    },
+    {
+      "id": "invoice_021",
+      "file": "data/raw/invoice_021.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "hard",
+      "has_ground_truth": false,
+      "special_case": "unusual item descriptions"
+    },
+    {
+      "id": "invoice_022",
+      "file": "data/raw/invoice_022.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "medium",
+      "has_ground_truth": false,
+      "special_case": "discount arithmetic"
+    },
+    {
+      "id": "invoice_023",
+      "file": "data/raw/invoice_023.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "hard",
+      "has_ground_truth": false,
+      "special_case": "duplicate-looking total reference"
+    },
+    {
+      "id": "invoice_024",
+      "file": "data/raw/invoice_024.pdf",
+      "document_type": "invoice",
+      "source_type": "digital_pdf",
+      "scanned_or_image_based": false,
+      "difficulty": "hard",
+      "has_ground_truth": false,
+      "special_case": "multiple dates"
+    },
+    {
+      "id": "invoice_025",
+      "file": "data/raw/invoice_025_scan.pdf",
+      "document_type": "invoice",
+      "source_type": "image_based_pdf",
+      "scanned_or_image_based": true,
+      "difficulty": "very_hard",
+      "has_ground_truth": false,
+      "special_case": "very noisy skewed scan"
+    }
+  ]
+}

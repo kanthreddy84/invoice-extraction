@@ -1,0 +1,27 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "string | null",
+    "invoice_date": "date | null",
+    "due_date": "date | null",
+    "vendor_name": "string | null",
+    "vendor_address": "string | null",
+    "customer_name": "string | null",
+    "customer_address": "string | null",
+    "purchase_order_number": "string | null",
+    "currency": "string | null",
+    "subtotal": "decimal | null",
+    "discount": "decimal | null",
+    "tax": "decimal | null",
+    "total": "decimal",
+    "payment_terms": "string | null",
+    "line_items": [
+      {
+        "description": "string",
+        "quantity": "decimal | null",
+        "unit_price": "decimal | null",
+        "amount": "decimal"
+      }
+    ]
+  }
+}

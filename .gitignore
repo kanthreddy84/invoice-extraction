@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+
+# Node/Frontend
+node_modules/
+npm-debug.log
+yarn-error.log
+.next/
+out/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.pytest_cache/
+
+# Private data
+data/uploads/
+data/processed/
+invoices.db
+
+# Keep data structure but ignore generated files
+!data/raw/.gitkeep
+!data/ground_truth/.gitkeep
+!data/benchmark/.gitkeep
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
