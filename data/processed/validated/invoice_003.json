@@ -1,0 +1,37 @@
+{
+  "document_id": "invoice_003",
+  "invoice_number": "INV-2026-0003",
+  "invoice_date": "2026-01-26",
+  "due_date": "2026-02-25",
+  "vendor_name": "Great Lakes Medical Supply",
+  "vendor_address": "410 Lakeshore Dr, Cleveland, OH 44114",
+  "customer_name": "Midwest Retail Group",
+  "customer_address": "7900 Central Ave, Chicago, IL 60606",
+  "purchase_order_number": "PO-98003",
+  "currency": "USD",
+  "subtotal": 112.5,
+  "discount": 0.0,
+  "tax": 6.75,
+  "total": 119.25,
+  "payment_terms": "Net 30",
+  "line_items": [
+    {
+      "description": "USB-C Docking Station",
+      "quantity": 1.0,
+      "unit_price": 12.5,
+      "amount": 12.5
+    },
+    {
+      "description": "Laptop Stand",
+      "quantity": 1.0,
+      "unit_price": 75.0,
+      "amount": 75.0
+    },
+    {
+      "description": "Consulting Hours",
+      "quantity": 2.0,
+      "unit_price": 12.5,
+      "amount": 25.0
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "benchmark_date": "2026-09-01 13:48:52.321297",
+  "documents_evaluated": 10,
+  "average_field_accuracy": 1.0,
+  "average_critical_accuracy": 1.0,
+  "total_fields_correct": 100,
+  "total_fields": 100,
+  "success_rate": "100%",
+  "details": [
+    {
+      "doc_id": "invoice_001",
+      "critical_field_accuracy": 1.0,
+      "field_accuracy": 1.0,
+      "critical_fields_correct": 5,
+      "critical_fields_total": 5,
+      "all_fields_correct": 10,
+      "all_fields_total": 10
+    },
+    {
+      "doc_id": "invoice_002",
+      "critical_field_accuracy": 1.0,
+      "field_accuracy": 1.0,
+      "critical_fields_correct": 5,
+      "critical_fields_total": 5,
+      "all_fields_correct": 10,
+      "all_fields_total": 10
+    },
+    {
+      "doc_id": "invoice_003",
+      "critical_field_accuracy": 1.0,
+      "field_accuracy": 1.0,
+      "critical_fields_correct": 5,
+      "critical_fields_total": 5,
+      "all_fields_correct": 10,
+      "all_fields_total": 10
+    },
+    {
+      "doc_id": "invoice_004",
+      "critical_field_accuracy": 1.0,
+      "field_accuracy": 1.0,
+      "critical_fields_correct": 5,
+      "critical_fields_total": 5,
+      "all_fields_correct": 10,
+      "all_fields_total": 10
+    },
+    {
+      "doc_id": "invoice_005",
+      "critical_field_accuracy": 1.0,
+      "field_accuracy": 1.0,
+      "critical_fields_correct": 5,
+      "critical_fields_total": 5,
+      "all_fields_correct": 10,
+      "all_fields_total": 10
+    },
+    {
+      "doc_id": "invoice_006",
+      "critical_field_accuracy": 1.0,
+      "field_accuracy": 1.0,
+      "critical_fields_correct": 5,
+      "critical_fields_total": 5,
+      "all_fields_correct": 10,
+      "all_fields_total": 10
+    },
+    {
+      "doc_id": "invoice_007",
+      "critical_field_accuracy": 1.0,
+      "field_accuracy": 1.0,
+      "critical_fields_correct": 5,
+      "critical_fields_total": 5,
+      "all_fields_correct": 10,
+      "all_fields_total": 10
+    },
+    {
+      "doc_id": "invoice_008",
+      "critical_field_accuracy": 1.0,
+      "field_accuracy": 1.0,
+      "critical_fields_correct": 5,
+      "critical_fields_total": 5,
+      "all_fields_correct": 10,
+      "all_fields_total": 10
+    },
+    {
+      "doc_id": "invoice_009",
+      "critical_field_accuracy": 1.0,
+      "field_accuracy": 1.0,
+      "critical_fields_correct": 5,
+      "critical_fields_total": 5,
+      "all_fields_correct": 10,
+      "all_fields_total": 10
+    },
+    {
+      "doc_id": "invoice_010",
+      "critical_field_accuracy": 1.0,
+      "field_accuracy": 1.0,
+      "critical_fields_correct": 5,
+      "critical_fields_total": 5,
+      "all_fields_correct": 10,
+      "all_fields_total": 10
+    }
+  ]
+}

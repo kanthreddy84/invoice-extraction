@@ -1,0 +1,37 @@
+{
+  "document_id": "invoice_005",
+  "invoice_number": "INV-2026-0005",
+  "invoice_date": "2026-02-09",
+  "due_date": "2026-03-11",
+  "vendor_name": "Summit Consulting Group",
+  "vendor_address": "900 Market Street, St. Louis, MO 63101",
+  "customer_name": "ABC Healthcare",
+  "customer_address": "500 Market Street, Detroit, MI 48226",
+  "purchase_order_number": "PO-98005",
+  "currency": "USD",
+  "subtotal": 3149.99,
+  "discount": 0.0,
+  "tax": 189.0,
+  "total": 3338.99,
+  "payment_terms": "Net 30",
+  "line_items": [
+    {
+      "description": "Consulting Hours",
+      "quantity": 5.0,
+      "unit_price": 120.0,
+      "amount": 600.0
+    },
+    {
+      "description": "Data Migration Services",
+      "quantity": 1.0,
+      "unit_price": 49.99,
+      "amount": 49.99
+    },
+    {
+      "description": "Network Cable - 10ft",
+      "quantity": 10.0,
+      "unit_price": 250.0,
+      "amount": 2500.0
+    }
+  ]
+}
