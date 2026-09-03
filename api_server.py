@@ -354,7 +354,7 @@ async def get_queue_status():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(
-        "main:app",
+        "api_server:app",
         host="0.0.0.0",
         port=8000,
         reload=True
