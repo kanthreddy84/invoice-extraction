@@ -4,11 +4,10 @@ services:
     env: python
     region: oregon
     plan: free
+    pythonVersion: 3.11
     buildCommand: pip install -r requirements.txt
     startCommand: python api_server.py
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.11
       - key: PYTHONUNBUFFERED
         value: "true"
       - key: PORT
