@@ -40,7 +40,7 @@ function Upload({ onUploadSuccess, onProcessStart, documentId, taskId }) {
     }, 2000);
 
     return () => clearInterval(pollInterval);
-  }, [taskId]);
+  }, [taskId, documentId]);
 
   const handleFileSelect = (e) => {
     setSelectedFile(e.target.files[0]);
